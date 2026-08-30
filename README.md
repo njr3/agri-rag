@@ -9,21 +9,21 @@ then not having the model make something up on top of it are two separate
 problems that most RAG demos treat as solved by default.
 
 This project treats them as two problems, evaluates them separately, and
-is honest about where the second one — not hallucinating — is genuinely
+is honest about where the second one , not hallucinating, is genuinely
 hard to measure well with the tools available here.
 
 ## What's actually being tested
 
 Two things, kept apart deliberately:
 
-**Retrieval quality** — does the right passage get surfaced for a given
+**Retrieval quality**  does the right passage get surfaced for a given
 question. Measured with precision@k, recall@k, and mean reciprocal rank
 against a small labeled eval set, comparing three retrieval strategies
 head to head: BM25 (sparse/lexical), an LSA-based dense retriever
 (TF-IDF followed by truncated SVD, then cosine similarity), and a hybrid
 of the two combined with reciprocal rank fusion.
 
-**Faithfulness** — given what was retrieved, does the generated answer
+**Faithfulness** , given what was retrieved, does the generated answer
 stick to it, or does it add things the source material doesn't support.
 Measured by decomposing the answer into sentences and checking each
 one's similarity against the retrieved context, with an extractive
@@ -39,7 +39,7 @@ other West African languages that most off-the-shelf multilingual
 sentence embedding models were not meaningfully evaluated on during
 training. Dropping in a model like LaBSE or multilingual-e5 and calling
 the low-resource-language problem solved would be the wrong lesson to
-take from this project — it would be borrowing credibility from a
+take from this project it would be borrowing credibility from a
 benchmark (usually English, French, and a handful of well-resourced
 languages) that doesn't cover the actual target case.
 
@@ -48,8 +48,8 @@ So the retrieval architecture here is built to be embedding-agnostic: the
 and SVD, that works identically regardless of language and doesn't
 depend on what a pretrained model happened to see during training. It's
 a genuinely weaker semantic model than a good transformer embedding
-would be — it can't do true paraphrase matching the way a trained
-embedding can — but it's a known, honest baseline rather than an
+would be  it can't do true paraphrase matching the way a trained
+embedding can  but it's a known, honest baseline rather than an
 unverified one. Swapping in a stronger multilingual embedding model, and
 specifically evaluating it on Wolof-language queries against this same
 corpus and eval harness, is the natural next step and is called out
@@ -58,8 +58,8 @@ below rather than glossed over.
 ## Demo corpus and eval set
 
 `corpus/docs.json` is fifteen short documents on staple-crop agronomy
-for the region — millet spacing, groundnut rotation, Striga control,
-post-harvest storage, that kind of thing — thirteen in English, two in
+for the region  millet spacing, groundnut rotation, Striga control,
+post-harvest storage, that kind of thing, thirteen in English, two in
 French, written for this project rather than pulled from any single
 source. `eval/questions.json` is sixteen questions against that corpus,
 each with the correct document(s) labeled, including two French
@@ -95,7 +95,7 @@ close-to-natural farmer phrasing but still share real vocabulary with
 the documents they target, and on a fifteen-document corpus with that
 much lexical overlap, sparse retrieval doesn't have much room to lose to
 a semantic method. The one case where the gap actually shows —
-`eval/run_eval.py`'s per-question breakdown flags it — is the
+`eval/run_eval.py`'s per-question breakdown flags it is the
 intercropping question, where BM25 gets a perfect hit and the LSA
 retriever misses it entirely. Dense retrieval's real advantage, matching
 meaning across genuinely different vocabulary or across languages, is
@@ -107,7 +107,7 @@ Faithfulness is 1.0 across the board here because the eval runs against
 the extractive fallback generator by default (no `ANTHROPIC_API_KEY`
 needed to reproduce this table). Set the key and pass `ClaudeGenerator()`
 into the pipeline to see how faithfulness looks for actual generated
-answers instead of extracted ones — that's where the metric starts to
+answers instead of extracted ones that's where the metric starts to
 do real work, and where I'd expect scores below 1.0 to show up.
 
 ## Using it
@@ -175,6 +175,3 @@ results/
   language rather than assuming its English/French benchmark numbers
   transfer.
 
-## License
-
-MIT — see LICENSE.
