@@ -1,0 +1,18 @@
+[
+  {"id": "q1", "question": "How far apart should I plant pearl millet?", "relevant_docs": ["millet_spacing"]},
+  {"id": "q2", "question": "Can I grow groundnut on the same field every year?", "relevant_docs": ["groundnut_rotation"]},
+  {"id": "q3", "question": "My cowpea plants have small green insects clustered on the shoots, what should I do?", "relevant_docs": ["cowpea_aphids"]},
+  {"id": "q4", "question": "When is the best time to apply nitrogen fertilizer to maize?", "relevant_docs": ["maize_npk_timing"]},
+  {"id": "q5", "question": "Does mulching actually help with soil moisture?", "relevant_docs": ["mulching_moisture"]},
+  {"id": "q6", "question": "How do I control Striga in my sorghum field?", "relevant_docs": ["striga_control"]},
+  {"id": "q7", "question": "My maize seedlings are dying right after they come up, what's causing that?", "relevant_docs": ["seed_treatment_damping"]},
+  {"id": "q8", "question": "What are the benefits of planting millet and cowpea together in the same field?", "relevant_docs": ["intercropping_benefits"]},
+  {"id": "q9", "question": "How can I stop weevils from destroying my stored grain?", "relevant_docs": ["postharvest_weevils"]},
+  {"id": "q10", "question": "Is it safe to put fresh manure directly on my field?", "relevant_docs": ["manure_composting"]},
+  {"id": "q11", "question": "What are zai pits and when are they useful?", "relevant_docs": ["zai_pits"]},
+  {"id": "q12", "question": "Should I choose an early-maturing variety if the rains are unreliable?", "relevant_docs": ["drought_tolerant_varieties"]},
+  {"id": "q13", "question": "My groundnut leaves are stunted and discolored in a rosette pattern, what disease is this?", "relevant_docs": ["groundnut_rosette"]},
+  {"id": "q14", "question": "Why does rotating cereal and legume crops matter for pest and disease control?", "relevant_docs": ["groundnut_rotation", "striga_control"]},
+  {"id": "q15", "question": "Quel espacement recommander pour le mil à chandelle ?", "relevant_docs": ["espacement_mil"]},
+  {"id": "q16", "question": "Pourquoi faut-il faire une rotation avec l'arachide ?", "relevant_docs": ["rotation_arachide"]}
+]

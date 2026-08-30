@@ -1,0 +1,92 @@
+[
+  {
+    "id": "millet_spacing",
+    "lang": "en",
+    "title": "Pearl millet plant spacing",
+    "text": "Pearl millet grown for grain does best at a spacing of roughly 75 to 90 centimeters between rows and 25 to 40 centimeters between hills within a row, thinned to two or three plants per hill after emergence. Wider spacing on poorer, sandier soils reduces competition for the limited soil moisture available and tends to give a more reliable yield than dense planting, even though dense planting looks more productive early in the season. Row orientation across the slope helps slow runoff on the gentle gradients typical of Sahelian millet fields."
+  },
+  {
+    "id": "groundnut_rotation",
+    "lang": "en",
+    "title": "Groundnut rotation with cereals",
+    "text": "Groundnut should not be planted on the same plot two seasons in a row. Rotating with a cereal such as millet or sorghum breaks the buildup of soil-borne diseases like Sclerotium rot and reduces populations of root-knot nematodes that build up under continuous groundnut. A three-year rotation, groundnut followed by two seasons of cereal, is a reasonable target where land is available; even a single intervening cereal season measurably reduces disease pressure compared to continuous groundnut."
+  },
+  {
+    "id": "cowpea_aphids",
+    "lang": "en",
+    "title": "Aphid management in cowpea",
+    "text": "Cowpea aphids cluster on young shoots and flower buds and, beyond direct feeding damage, transmit cowpea aphid-borne mosaic virus, which is often the more costly problem. Early infestations concentrated on a few plants can be removed by hand. Border rows of a non-host crop and avoiding planting immediately next to a recently harvested legume field both reduce the speed at which aphid populations colonize a new cowpea planting. Where insecticide is used, targeting the early flowering stage gives more protection per application than spraying once aphids are already dense on the crop."
+  },
+  {
+    "id": "maize_npk_timing",
+    "lang": "en",
+    "title": "Maize fertilizer timing",
+    "text": "Splitting nitrogen application for maize into two or three doses, rather than applying it all at planting, noticeably improves nitrogen use efficiency because a large single dose at planting is vulnerable to leaching before the crop's root system is developed enough to take it up. A common split is roughly a third at planting alongside the full phosphorus and potassium dose, with the remaining nitrogen applied at knee-high stage and again at tasseling if a third split is used. Phosphorus is best placed at planting since maize roots are relatively immobile with respect to phosphorus and early access to it strongly influences root development."
+  },
+  {
+    "id": "mulching_moisture",
+    "lang": "en",
+    "title": "Mulching for soil moisture conservation",
+    "text": "A mulch layer of crop residue or dry grass, even a thin one of two to three centimeters, measurably reduces evaporative water loss from the soil surface between rainfall events. Beyond moisture retention, mulch moderates soil surface temperature, which protects germinating seedlings during hot spells, and gradually adds organic matter as it breaks down. Residue from the previous cereal crop is usually the cheapest source, though it competes with use as livestock fodder, which is often the real constraint on adoption rather than lack of awareness of the practice."
+  },
+  {
+    "id": "striga_control",
+    "lang": "en",
+    "title": "Striga (witchweed) control in millet and sorghum",
+    "text": "Striga is a parasitic weed that attaches to the roots of millet and sorghum and causes damage well before it emerges above ground, so visible Striga plants already represent significant yield loss. Rotating with a non-host crop such as cowpea or groundnut reduces the Striga seed bank over time, since the seeds require a chemical signal from a host root to germinate. Hand-pulling Striga before it flowers and sets seed, even after damage is done, prevents the seed bank from growing for future seasons. Striga-tolerant cereal varieties exist and are worth prioritizing on fields with a known history of heavy infestation."
+  },
+  {
+    "id": "seed_treatment_damping",
+    "lang": "en",
+    "title": "Seed treatment against damping-off",
+    "text": "Damping-off, caused by soil fungi that attack seedlings at or just below the soil line, is more severe in cool, wet soil and on seed that was stored poorly. Treating seed with a fungicide seed dressing before planting is the most reliable protection where it's accessible. Where it isn't, planting slightly shallower in heavy soils, avoiding waterlogged fields for the first planting, and using seed from the current season's harvest rather than older stored seed all reduce the risk, though none of these substitutes fully for seed treatment on fields with a recurring damping-off problem."
+  },
+  {
+    "id": "intercropping_benefits",
+    "lang": "en",
+    "title": "Cereal-legume intercropping",
+    "text": "Intercropping a cereal such as millet with a legume such as cowpea or groundnut is a long-standing practice for good reason: the legume fixes nitrogen that partly benefits the companion cereal, the two crops have different rooting depths and canopy structures so they compete less directly for light and water than two cereals would, and if one crop fails due to pest or drought the other still gives a partial return. The main tradeoff is that intercropped fields are harder to mechanize and the legume component is usually planted at lower density than it would be as a sole crop, so per-hectare legume yield is lower than in monoculture."
+  },
+  {
+    "id": "postharvest_weevils",
+    "lang": "en",
+    "title": "Post-harvest storage against weevils",
+    "text": "Grain weevils typically enter stored cereal from field infestation that begins before harvest, not purely from the storage structure itself, so losses often start earlier than farmers assume. Drying grain to a moisture content low enough that it feels genuinely hard when bitten, rather than merely dry to the touch, substantially slows weevil reproduction. Hermetic storage, such as sealed bags or drums that exclude oxygen, is one of the more effective low-input options where it's available, since weevils cannot complete their life cycle in a low-oxygen environment even without any chemical treatment."
+  },
+  {
+    "id": "manure_composting",
+    "lang": "en",
+    "title": "Composting livestock manure before field application",
+    "text": "Fresh manure applied directly to a field can scorch young seedlings due to its ammonia content and may carry weed seeds that survive the digestive tract of the animal. Composting for four to six weeks, turning the pile once or twice to keep it aerobic, reduces both problems: the heat generated during composting kills most weed seeds, and the ammonia largely converts to more stable nitrogen forms by the time the compost is applied. Compost is bulkier to transport than the equivalent nutrient value in mineral fertilizer, which is usually the practical constraint on how much of it gets applied rather than any doubt about its benefit."
+  },
+  {
+    "id": "zai_pits",
+    "lang": "en",
+    "title": "Zai pits for water harvesting on degraded soil",
+    "text": "Zai pits are small planting holes, roughly 20 to 30 centimeters wide and 10 to 20 centimeters deep, dug before the rains on crusted or degraded land where water would otherwise run off rather than infiltrate. A small amount of manure or compost placed in the pit concentrates both water and nutrients exactly where the seed is planted, and the pit itself captures runoff from the surrounding crusted surface. The technique is labor-intensive to establish, which is the main barrier to adoption at scale, but on severely degraded land it can bring plots back into production that would otherwise be abandoned."
+  },
+  {
+    "id": "drought_tolerant_varieties",
+    "lang": "en",
+    "title": "Selecting drought-tolerant varieties",
+    "text": "Drought-tolerant varieties are usually bred to escape terminal drought by maturing earlier, or to tolerate mid-season dry spells through deeper rooting and better stomatal control, and these are different strategies suited to different rainfall risk patterns. An early-maturing variety is generally the safer default in a zone where the rainy season itself is short and unpredictable in its end date, since it reduces exposure to a late-season dry spell regardless of how the rest of the season goes. Yield potential under good conditions is often somewhat lower for early-maturing varieties than for longer-season ones, which is the tradeoff farmers are weighing when they say a drought-tolerant variety 'yields less' in a good year."
+  },
+  {
+    "id": "groundnut_rosette",
+    "lang": "en",
+    "title": "Groundnut rosette virus",
+    "text": "Groundnut rosette virus is transmitted by aphids and causes stunted, discolored, rosette-shaped growth, with yield loss that can be severe when infection happens early in the season. Late-planted groundnut, or groundnut planted near an earlier-planted field that's already carrying aphid populations, is at higher risk, so synchronizing planting dates across neighboring fields in a community reduces the window during which aphids can move virus from an older to a younger crop. Rosette-resistant varieties, where accessible, are the most reliable protection, since insecticide timing against the aphid vector is difficult to get right in practice."
+  },
+  {
+    "id": "espacement_mil",
+    "lang": "fr",
+    "title": "Espacement du mil à chandelle",
+    "text": "Le mil à chandelle cultivé pour le grain donne de meilleurs résultats avec un espacement d'environ 75 à 90 centimètres entre les lignes et 25 à 40 centimètres entre les poquets, réduits à deux ou trois plants par poquet après la levée. Un espacement plus large sur les sols sableux et pauvres réduit la compétition pour l'eau du sol, qui est le facteur limitant, et donne généralement un rendement plus fiable qu'un semis dense, même si le semis dense paraît plus productif en début de saison."
+  },
+  {
+    "id": "rotation_arachide",
+    "lang": "fr",
+    "title": "Rotation de l'arachide avec les céréales",
+    "text": "L'arachide ne devrait pas être cultivée sur la même parcelle deux saisons de suite. Une rotation avec une céréale comme le mil ou le sorgho réduit l'accumulation de maladies telluriques et des nématodes qui se multiplient sous une arachide continue. Une rotation sur trois ans, arachide suivie de deux saisons de céréale, est un objectif raisonnable là où la terre disponible le permet."
+  }
+]
